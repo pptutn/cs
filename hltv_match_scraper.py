@@ -365,7 +365,7 @@ def main():
     session = create_session()
     all_match_data = []
     
-    for offset in range(3000, 6001, 100):
+    for offset in range(0, 200, 100):
         results_url = f'{base_url}{offset}'
         logging.info(f"Scraping results page: {results_url}")
         
